@@ -10944,91 +10944,31 @@ HETATM10101  O   HOH B1377      41.404   2.285 -41.969  1.00 44.05           O
 HETATM10102  O   HOH B1378      37.336   6.313 -52.449  1.00 58.93           O  
 HETATM10103  O   HOH B1379      25.702 -19.341 -67.575  1.00 67.46           O  
 HETATM10104  O   HOH B1380      30.191   3.043 -52.677  1.00 59.63           O  
-CONECT  994 8991                                                                
-CONECT  999 8991                                                                
-CONECT 1020 8991                                                                
-CONECT 1457 8991                                                                
-CONECT 5463 8993                                                                
-CONECT 5468 8993                                                                
-CONECT 5489 8993                                                                
-CONECT 5926 8993                                                                
-CONECT 8939 8940 8948 8951                                                      
-CONECT 8940 8939 8941 8947                                                      
-CONECT 8941 8940 8942 8949                                                      
-CONECT 8942 8941 8943 8950                                                      
-CONECT 8943 8942 8944 8951                                                      
-CONECT 8944 8943 8952                                                           
-CONECT 8945 8946 8947 8953                                                      
-CONECT 8946 8945                                                                
-CONECT 8947 8940 8945                                                           
-CONECT 8948 8939                                                                
-CONECT 8949 8941 8954                                                           
-CONECT 8950 8942                                                                
-CONECT 8951 8939 8943                                                           
-CONECT 8952 8944                                                                
-CONECT 8953 8945                                                                
-CONECT 8954 8949 8955 8963                                                      
-CONECT 8955 8954 8956 8960                                                      
-CONECT 8956 8955 8957 8961                                                      
-CONECT 8957 8956 8958 8962                                                      
-CONECT 8958 8957 8959 8963                                                      
-CONECT 8959 8958 8964                                                           
-CONECT 8960 8955                                                                
-CONECT 8961 8956                                                                
-CONECT 8962 8957                                                                
-CONECT 8963 8954 8958                                                           
-CONECT 8964 8959                                                                
-CONECT 8965 8966 8974 8977                                                      
-CONECT 8966 8965 8967 8973                                                      
-CONECT 8967 8966 8968 8975                                                      
-CONECT 8968 8967 8969 8976                                                      
-CONECT 8969 8968 8970 8977                                                      
-CONECT 8970 8969 8978                                                           
-CONECT 8971 8972 8973 8979                                                      
-CONECT 8972 8971                                                                
-CONECT 8973 8966 8971                                                           
-CONECT 8974 8965                                                                
-CONECT 8975 8967 8980                                                           
-CONECT 8976 8968                                                                
-CONECT 8977 8965 8969                                                           
-CONECT 8978 8970                                                                
-CONECT 8979 8971                                                                
-CONECT 8980 8975 8981 8989                                                      
-CONECT 8981 8980 8982 8986                                                      
-CONECT 8982 8981 8983 8987                                                      
-CONECT 8983 8982 8984 8988                                                      
-CONECT 8984 8983 8985 8989                                                      
-CONECT 8985 8984 8990                                                           
-CONECT 8986 8981                                                                
-CONECT 8987 8982                                                                
-CONECT 8988 8983                                                                
-CONECT 8989 8980 8984                                                           
-CONECT 8990 8985                                                                
-CONECT 8991  994  999 1020 1457                                                 
-CONECT 8991 9072 9367                                                           
-CONECT 8992 9004 9064 9090 9107                                                 
-CONECT 8992 9115 9159                                                           
-CONECT 8993 5463 5468 5489 5926                                                 
-CONECT 8993 9649 9797 9915                                                      
-CONECT 8994 9585 9614 9675 9683                                                 
-CONECT 8994 9687 9864                                                           
-CONECT 9004 8992                                                                
-CONECT 9064 8992                                                                
-CONECT 9072 8991                                                                
-CONECT 9090 8992                                                                
-CONECT 9107 8992                                                                
-CONECT 9115 8992                                                                
-CONECT 9159 8992                                                                
-CONECT 9367 8991                                                                
-CONECT 9585 8994                                                                
-CONECT 9614 8994                                                                
-CONECT 9649 8993                                                                
-CONECT 9675 8994                                                                
-CONECT 9683 8994                                                                
-CONECT 9687 8994                                                                
-CONECT 9797 8993                                                                
-CONECT 9864 8994                                                                
-CONECT 9915 8993
-CONECT 8980 8976
+CONECT 8965 8966 8974 8977           
+CONECT 8966 8965 8967 8973           
+CONECT 8967 8966 8968 8975           
+CONECT 8968 8967 8969 8976           
+CONECT 8969 8968 8970 8977           
+CONECT 8970 8969 8978                 
+CONECT 8971 8972 8973 8979           
+CONECT 8972 8971                     
+CONECT 8973 8966 8971                 
+CONECT 8974 8965                     
+CONECT 8975 8967 8980                 
+CONECT 8976 8968 8980      <-- NEW GLYCOSIDIC BOND 8980  
+CONECT 8977 8965 8969                 
+CONECT 8978 8970                     
+CONECT 8979 8971                     
+CONECT 8980 8975 8981 8989 8976  <-- NEW GLYCOSIDIC BOND 8976
+CONECT 8981 8980 8982 8986           
+CONECT 8982 8981 8983 8987           
+CONECT 8983 8982 8984 8988           
+CONECT 8984 8983 8985 8989           
+CONECT 8985 8984 8990                 
+CONECT 8986 8981                     
+CONECT 8987 8982                     
+CONECT 8988 8983                     
+CONECT 8989 8980 8984                 
+CONECT 8990 8985
 MASTER      502    0    8   24  102    0    0    610102    2   85   94          
 END                                                                             
